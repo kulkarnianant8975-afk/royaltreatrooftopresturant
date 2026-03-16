@@ -1,13 +1,20 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 import { useState, useMemo, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
-import { ArrowUp, Instagram, Phone, MapPin, QrCode } from "lucide-react";
+import { ArrowUp, Instagram, Phone, MapPin, QrCode, Camera } from "lucide-react";
 import LandingSplash from "./components/LandingSplash";
 import Navbar from "./components/Navbar";
 import CategorySection from "./components/CategorySection";
 import QRView from "./components/QRView";
 import AdminPanel from "./components/AdminPanel";
 import DishModal from "./components/DishModel";
+import HeroCarousel from "./components/HeroCarousel";
+import PhotoCarousel from "./components/PhotoCarousel";
 import { MOCK_DISHES } from "./data/mockDishes";
 import { CATEGORIES, Dish } from "./types";
 
@@ -39,43 +46,8 @@ function MenuView() {
 
   return (
     <div className="min-h-screen pb-24">
-      {/* Hero Section - Now at the very top */}
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-        className="w-full h-[450px] md:h-[650px] relative overflow-hidden border-b border-gold/20"
-      >
-        <div className="absolute inset-0 z-0">
-          <img 
-            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1920&q=80" 
-            alt="Royal Treat Rooftop Restaurant" 
-            className="w-full h-full object-cover"
-            referrerPolicy="no-referrer"
-          />
-          <div className="absolute inset-0 bg-black/50" />
-        </div>
-
-        <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4, duration: 0.8 }}
-          >
-            <h1 className="font-royal text-5xl md:text-8xl text-gold mb-4 drop-shadow-2xl">
-              Royal Treat
-            </h1>
-            <p className="text-white text-[11px] md:text-base tracking-[0.8em] font-black uppercase opacity-90 drop-shadow-lg mb-12">
-              Rooftop Restaurant
-            </p>
-            <div className="flex items-center justify-center gap-6 md:gap-12">
-              <div className="h-[1px] w-12 md:w-24 bg-gold/60" />
-              <span className="text-gold font-royal text-xl md:text-3xl italic tracking-widest">Experience Excellence</span>
-              <div className="h-[1px] w-12 md:w-24 bg-gold/60" />
-            </div>
-          </motion.div>
-        </div>
-      </motion.div>
+      {/* Hero Carousel Section */}
+      <HeroCarousel />
 
       <Navbar 
         onSearch={setSearchQuery} 
@@ -99,6 +71,8 @@ function MenuView() {
           </div>
         )}
       </main>
+
+      <PhotoCarousel />
 
       <DishModal 
         dish={selectedDish} 
@@ -126,7 +100,7 @@ function MenuView() {
               </a>
 
               <a 
-                href="https://www.facebook.com/share/18QdPPBXvV/" 
+                href="https://www.facebook.com/profile.php?id=61556445554321" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center gap-2 text-white/90 hover:scale-105 transition-all group"
@@ -219,3 +193,4 @@ export default function App() {
     </Router>
   );
 }
+

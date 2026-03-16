@@ -38,6 +38,7 @@ export const CATEGORIES = [
   "Dal Khichadi",
   "Dal Handi",
   "Mocktails",
+  "Milkshake",
   "Desserts",
   "Cold Beverages",
   "Meal Combos"

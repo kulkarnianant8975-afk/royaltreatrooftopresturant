@@ -12,7 +12,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/soup/cream-of-tomato-soup.avif",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -25,7 +25,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/soup/classic-veg-munchow-soup.webp",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -38,7 +38,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/soup/royal-hot-sour-soup.webp",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -225,7 +225,7 @@ export const MOCK_DISHES: Dish[] = [
     image:"images/munchies/cheesy-corn-balls.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -238,7 +238,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/munchies/cherry_cheese_pineapple.avif",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -264,7 +264,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/munchies/crispy-corn-new.jpg",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -343,7 +343,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/noodle_bar/veg-hakka-noodles.jpg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -356,7 +356,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/noodle_bar/schezwan-noodles-new.webp",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -448,7 +448,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/indo_chinese_treats/honey_chilli_potato.jpg",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -461,7 +461,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/indo_chinese_treats/channa-chilli-toss.jpg",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -487,7 +487,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/indo_chinese_treats/white-chilli-paneer.jpg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -591,7 +591,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/indo_chinese_treats/chiense-platter.jpg",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: true,
     available: true
   },
@@ -617,7 +617,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/indo_chinese_treats/chilli-paneer-gravy.jpg",
     isVeg: true,
     isSpicy: true,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -657,7 +657,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/royal_tandoor_se/malai_chaap.jpg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -683,7 +683,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/royal_tandoor_se/tandoori-veg-platter.jpeg",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -722,7 +722,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/royal_tandoor_se/peshawari-paneer.avif",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -748,7 +748,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/royal_tandoor_se/paneer-anagara-kabab.jpeg",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -774,7 +774,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/royal_tandoor_se/malai-paneer-tikka.webp",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -787,7 +787,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/royal_tandoor_se/paneer-pansari-tikka.jpeg",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: true,
     available: true
   },
@@ -853,7 +853,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/marathwada_zaika/paneer-waradi-curry.webp",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -892,7 +892,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/marathwada_zaika/shevga-masala.jpg",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -931,7 +931,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/marathwada_zaika/bhendi_fry.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -984,7 +984,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/patiala/veg-handi-special.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -997,7 +997,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/patiala/veg-kofta.webp",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -1037,7 +1037,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/panjabi_dawat/paneer-lababdar.jpg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: true,
     available: true
   },
@@ -1063,7 +1063,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/panjabi_dawat/paneer-patiala-masala.jpg",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -1076,7 +1076,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/panjabi_dawat/paneer-anagara-masala.jpg",
     isVeg: true,
     isSpicy: true,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -1220,7 +1220,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/breads/tandoor-roti.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1246,7 +1246,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/breads/naan.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1259,7 +1259,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/breads/garlic_naan.avif",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1272,7 +1272,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/breads/chees-naan-delight.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1285,7 +1285,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/breads/chees-garlic-naan.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1324,7 +1324,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/breads/Lachha-paratha.cms",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1337,7 +1337,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/breads/plain-chapati.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1377,7 +1377,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/breads/plain-steamed-rice.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1390,7 +1390,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/rice/jeera-temparod-rice.webp",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1457,7 +1457,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/biryani/veg-dum-biryani.jpeg",
     isVeg: true,
     isSpicy: true,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1470,7 +1470,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/biryani/hyderabadi-veg-biryani.jpg",
     isVeg: true,
     isSpicy: true,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1590,7 +1590,7 @@ export const MOCK_DISHES: Dish[] = [
     isVeg: true,
     isSpicy: false,
     isPopular: false,
-    isChefSpecial: true,
+    isChefSpecial: false,
     available: true
   },
   // MOCKTAILS
@@ -1646,7 +1646,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/mocktails/pink-lady-sparkel.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -1659,7 +1659,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/mocktails/pina-colada.webp",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -1739,7 +1739,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/desserts/fruit-salad-with-ice-cream.webp",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -1752,7 +1752,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/desserts/classic-basundi.jpg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -1765,7 +1765,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/desserts/fruit-rabri.jpg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: true,
     available: true
   },
@@ -1818,7 +1818,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/beverages/water.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1831,7 +1831,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/beverages/soft-drink.jpeg",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1844,7 +1844,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/beverages/fresh-lime-water.webp",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1884,7 +1884,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/beverages/cold-coffe-delight.webp",
     isVeg: true,
     isSpicy: false,
-    isPopular: true,
+    isPopular: false,
     isChefSpecial: false,
     available: true
   },
@@ -1901,8 +1901,151 @@ export const MOCK_DISHES: Dish[] = [
     isChefSpecial: false,
     available: true
   },
+    //  Milk-Shek
+  {
+    id: "ms1",
+    name: "Banana Milkshake Classic",
+    description: "Thick banana shake blended smooth with chilled milk for a refreshing treat.",
+    price: 110,
+    category: "Milkshake",
+    image: "images/milkshek/banana-mik-shek.jpeg",
+    isVeg: true,
+    isSpicy: false,
+    isPopular: false,
+    isChefSpecial: false,
+    available: true
+  },
+  {
+    id: "ms2",
+    name: "Chikku Milkshake Delight",
+    description: "Sweet chikku blended into a creamy shake with rich natural flavour.",
+    price: 110,
+    category: "Milkshake",
+    image: "images/milkshek/chikoo_milkshek.jpg",
+    isVeg: true,
+    isSpicy: false,
+    isPopular: false,
+    isChefSpecial: false,
+    available: true
+  },
 
-  
+  {
+    id: "ms3",
+    name: "Apple Milkshake Fresh",
+    description: "Fresh apples blended into a smooth, mildly sweet creamy milkshake.",
+    price: 110,
+    category: "Milkshake",
+    image: "images/milkshek/apple-mikshek.jpg",
+    isVeg: true,
+    isSpicy: false,
+    isPopular: false,
+    isChefSpecial: false,
+    available: true
+  },
+  {
+    id: "ms4",
+    name: "Vanilla Shake Supreme",
+    description: "Classic vanilla shake made creamy and chilled for a simple satisfying taste.",
+    price: 110,
+    category: "Milkshake",
+    image: "images/milkshek/supreme-white-vanilla-milkshake.jpg",
+    isVeg: true,
+    isSpicy: false,
+    isPopular: false,
+    isChefSpecial: false,
+    available: true
+  },
+   {
+    id: "ms5",
+    name: "Butterscotch Shake Bliss",
+    description: "Creamy butterscotch shake with a sweet caramel flavour and smooth texture.",
+    price: 110,
+    category: "Milkshake",
+    image: "images/milkshek/butter-scotch.jpeg",
+    isVeg: true,
+    isSpicy: false,
+    isPopular: false,
+    isChefSpecial: false,
+    available: true
+  },
+  {
+    id: "ms6",
+    name: "Chocolate Shake Indulgence",
+    description: "Rich chocolate blended into a thick shake offering deep, comforting flavour.",
+    price: 110,
+    category: "Milkshake",
+    image: "images/milkshek/chocolate-milkshek.jpeg",
+    isVeg: true,
+    isSpicy: false,
+    isPopular: false,
+    isChefSpecial: false,
+    available: true
+  },
+   {
+    id: "ms7",
+    name: "Strawberry Shake Fresh",
+    description: "Refreshing strawberry shake with fruity flavour and smooth creamy consistency.",
+    price: 110,
+    category: "Milkshake",
+    image: "images/milkshek/strawberry-shake-fresh.jpeg",
+    isVeg: true,
+    isSpicy: false,
+    isPopular: false,
+    isChefSpecial: false,
+    available: true
+  },
+  {
+    id: "ms8",
+    name: "Pista Shake Royal",
+    description: "Creamy pistachio shake with subtle nutty flavour and soft silky texture.",
+    price: 110,
+    category: "Milkshake",
+    image: "images/milkshek/pista-milkshake.webp",
+    isVeg: true,
+    isSpicy: false,
+    isPopular: false,
+    isChefSpecial: false,
+    available: true
+  },
+   {
+    id: "ms9",
+    name: "Dry Fruit Milkshake Premium",
+    description: "Blend of cashew, badam and pista creating a rich, thick milkshake.",
+    price: 140,
+    category: "Milkshake",
+    image: "images/milkshek/dry-fruit-milkshake.webp",
+    isVeg: true,
+    isSpicy: false,
+    isPopular: false,
+    isChefSpecial: false,
+    available: true
+  },
+   {
+    id: "ms10",
+    name: "Mango / Dry Fruit Mastani",
+    description: "Thick milkshake topped with ice cream and nuts for a royal dessert drink.",
+    price: 160,
+    category: "Milkshake",
+    image: "images/milkshek/mango-dry-fruit-mastani.jpeg",
+    isVeg: true,
+    isSpicy: false,
+    isPopular: false,
+    isChefSpecial: false,
+    available: true
+  },
+  {
+    id: "ms11",
+    name: "Royal Special Mastani",
+    description: "Signature mastani loaded with ice cream, nuts and rich creamy flavours.",
+    price: 190,
+    category: "Milkshake",
+    image: "images/milkshek/royal-special-mastani.jpg",
+    isVeg: true,
+    isSpicy: false,
+    isPopular: true,
+    isChefSpecial: true,
+    available: true
+  },
   // MEAL COMBOS
   {
     id: "mc1",
@@ -1939,7 +2082,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/meal/mini-meal.jpg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   },
@@ -1952,7 +2095,7 @@ export const MOCK_DISHES: Dish[] = [
     image: "images/meal/delux-meal.jpg",
     isVeg: true,
     isSpicy: false,
-    isPopular: false,
+    isPopular: true,
     isChefSpecial: false,
     available: true
   }
