@@ -1,0 +1,8 @@
+{
+  "name": "Morya's Royal Treat Menu",
+  "description": "A premium digital QR code menu for Morya's Royal Treat Rooftop Restaurant, featuring a royal design, category-based browsing, and an admin dashboard.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
