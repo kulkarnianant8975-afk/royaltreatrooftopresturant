@@ -97,15 +97,15 @@ export default function Navbar({ onSearch, onFilterChange, activeFilter }: Navba
     <nav className={`sticky top-0 left-0 right-0 z-40 transition-all duration-500 ${isScrolled ? 'bg-white/95 backdrop-blur-xl shadow-2xl py-0' : 'bg-white shadow-md py-4'}`}>
       {/* Top Bar - Hidden or minimized on scroll */}
       <div className={`max-w-7xl mx-auto px-4 flex items-center justify-between transition-all duration-500 ${isScrolled ? 'h-0 opacity-0 overflow-hidden' : 'h-16 opacity-100'}`}>
-        <div className="flex flex-col">
+        <div className="flex flex-col flex-shrink-0">
           <h1 className="font-royal text-xl text-charcoal leading-none">MORYA'S</h1>
           <span className="text-[10px] tracking-[0.2em] text-gold font-bold">ROYAL TREAT</span>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4 flex-shrink min-w-0">
           <button 
             onClick={() => navigate("/qr")}
-            className="p-2 text-charcoal hover:text-gold transition-colors"
+            className="p-2 text-charcoal hover:text-gold transition-colors flex-shrink-0"
             title="View QR Code"
           >
             <QrCode size={20} />
@@ -113,17 +113,17 @@ export default function Navbar({ onSearch, onFilterChange, activeFilter }: Navba
           
           <button 
             onClick={() => setShowSearch(!showSearch)}
-            className="p-2 text-charcoal hover:text-gold transition-colors"
+             className="p-2 text-charcoal hover:text-gold transition-colors flex-shrink-0"
           >
             <Search size={20} />
           </button>
           
-          <div className="flex gap-2">
+          <div className="flex gap-2 overflow-x-auto no-scrollbar flex-nowrap py-1 flex-shrink min-w-0">
             {['All', 'Veg', 'Spicy', 'Popular'].map((f) => (
               <button
                 key={f}
                 onClick={() => onFilterChange(f)}
-                className={`text-[10px] font-bold px-3 py-1.5 rounded-full transition-all ${
+                  className={`text-[10px] font-bold px-3 py-1.5 rounded-full transition-all whitespace-nowrap flex-shrink-0 ${
                   activeFilter === f 
                     ? 'bg-gold text-white shadow-md' 
                     : 'bg-royal-cream text-charcoal/60 hover:bg-gold/10'
